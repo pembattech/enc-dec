@@ -19,3 +19,8 @@ def decrypt(data):
         except ValueError:
             dec += i
     return dec
+
+
+print(encrypt("hello"))
+
+print(decrypt(encrypt("hello")))
